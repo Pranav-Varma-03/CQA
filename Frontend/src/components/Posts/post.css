@@ -1,0 +1,33 @@
+h1{
+  font-weight: bold;
+  text-decoration:solid;
+  margin: 20px;
+}
+.postdata{
+  padding: 10px;
+}
+h2{
+  margin: 10px;
+}
+.content{
+  margin: 10px;
+  padding: 5px;
+  border: 0.6px;
+  border-radius: 5px;
+  border-style:double;
+}
+.back{
+  text-transform: capitalize;
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+.votebutton{
+  outline: none;
+  width: 110px;
+  border: none;
+  margin: 0px 7px 0px 0px;
+  background-color: rgb(191, 188, 188);
+  border-radius: 4px;
+}

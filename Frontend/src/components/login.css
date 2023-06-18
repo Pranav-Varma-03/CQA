@@ -1,0 +1,104 @@
+.title {
+  text-align: left;
+  /* font-weight: 00; */
+  font-size:80px;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  line-height: normal;
+  color:rgb(2, 6, 15);
+  padding-right: 50%;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-top: calc(var(--bs-gutter-x) * 5);
+  padding-right: calc(var(--bs-gutter-x) * 6);
+  padding-left: calc(var(--bs-gutter-x) * 5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.li{
+  width:200px ;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  font-size:large;
+  color: white;
+  font-weight:3000;
+  background-color:rgb(40, 96, 226);
+}
+
+.tagline {
+  font-size: x-large;
+  color: rgba(49, 44, 44, 0.7);
+  padding-left: 120px;
+  padding-top: 60px;
+}
+
+.loginbox {
+  color: #181b19;
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15%;
+  align-items: center;
+}
+
+
+.body1 {
+    width: 100%;
+    background: #e2e6ec  no-repeat scroll;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 500px;
+  }
+
+.butto{
+  padding-left: 25%;
+}
+.box {
+  /* border: 1px solid #fbfcff; */
+  /* background-color: rgb(20, 10, 13); */
+  color: #181b19;
+  
+}
+
+.newbox{
+  padding: 15px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.p-4{
+  padding-right: 0px;
+}
+
+/* .g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+} */
+
+/* 
+.fpg{
+  size: 50%;
+} */

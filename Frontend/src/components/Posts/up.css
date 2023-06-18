@@ -1,0 +1,13 @@
+h3{
+  margin-bottom: 20px;
+}
+.text{
+  padding: 0px 85px 0px 3px;
+}
+
+.radio{
+  display: inline-flex;
+  margin-left: 5px;
+  /* align-items: center;
+  position: relative; */
+}

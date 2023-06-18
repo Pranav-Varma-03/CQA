@@ -1,0 +1,23 @@
+.Searchbar{
+  align-items: center;
+  padding: 0px 0px 0px 25px;
+  margin: 10px 0px 30px 0px;
+}
+input[type="radio"]{
+  vertical-align:-1.0px;
+}
+.filter{
+  margin: 0px 5px ;
+  font-weight: bold;
+  font-size: normal;
+}
+#searchbox{
+  border-radius: 9px;
+  margin: 10px 0px 15px 0px;
+}
+.posts{
+  margin-left: 55px;
+}
+.postss{
+  margin-left: 15px;
+}

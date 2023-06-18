@@ -1,0 +1,144 @@
+======================================================================================= Creating Table ======================================================================================= 
+CREATE TABLE tab(
+	a int,
+	b int
+);
+
+======================================================================================= Different DataTypes ========================================================================
+SERIAL
+TEXT
+int
+BYTEA
+timestamp
+TEXT[] -> Array of Text
+
+======================================================================================= Conditions While Creating Table ============================================================
+primary key 
+UNIQUE
+not null
+default value
+default current_timestamp => For timestamp usage
+
+======================================================================================= Foreign key ======================================================================================= 
+foreign key(post_id) references posts(post_id) on delete cascade
+foreign key(post_id) references posts(post_id) on delete null
+
+======================================================================================= Functions ======================================================================================= 
+create or replace function func_name(<arguments>)
+returns <return_type>
+as $$
+declare 
+-- Any variables to be used in the function are declared here
+begin 
+
+-- Function implementation
+
+return <var>;
+end ;
+$$ language plpgsql ;
+myvar RECORD;
+
+Return Types from functions:
+integer
+numeric
+boolean
+character
+varchar
+date
+time
+timestamp
+TABLE 
+integer[]
+varchar[]	
+
+Variable Types possible to declare in declare section:
+myvar INTEGER
+myvar NUMERIC
+myvar BOOLEAN
+myvar CHARACTER
+myvar VARCHAR
+myvar DATE
+myvar TIME
+myvar TIMESTAMP
+myvar TABLE (col1 INTEGER, col2 VARCHAR) -> Table variables with specific column definitions
+myvar RECORD - > Generic record variables that can hold any row type
+myvar INTEGER[] -> Any Array Type
+======================================================================================= Conditionals ======================================================================================= 
+if <condition_1> and/or <condition_2> then 
+	-- Body of the conditional ;
+elsif <condtion> then 
+	-- Body of conditional else if ;
+else 
+	-- Body of else ;
+end if ;
+
+CASE
+    WHEN condition1 THEN
+        -- code to execute if condition1 is true
+    WHEN condition2 THEN
+        -- code to execute if condition2 is true
+    ELSE
+        -- code to execute if none of the conditions are true
+END CASE;
+
+======================================================================================= Loops ======================================================================================= 
+WHILE condition LOOP
+    -- code to execute
+END LOOP;
+
+FOREACH variable IN query LOOP
+    -- code to execute
+END LOOP;
+
+FOR i IN 1..10 LOOP
+    -- Code to execute for each iteration
+END LOOP;
+
+r record;
+for r in select * from comment_votes loop
+if r.user_id = user_idi and r.comment_id = comment_idi then 
+	exit ;
+else 
+	continue;
+end if ;
+
+exit => Breaks out of loop
+Continue => Goes for next Iteration
+======================================================================================= Triggers ======================================================================================= 
+
+1) Before Insert
+2) After Insert
+3) Before Update
+4) After Update
+5) Before Delete
+6) After Delete
+
+create or replace function <function_for_trigger_handling>
+returns trigger 
+as $$
+declare
+r record ;
+
+begin 
+
+end ;
+$$ language plpgsql ;
+
+create or replace trigger <trigger_name>
+before/after delete/update/insert 
+on <table_name>
+for each row 
+execute procedure <function_of_trigger_handling>;
+
+
+Return values of trigger functions:
+for BEFORE :
+	return NULL -> In this the insertion or updating or deleting doesnt occur if we return this value 
+	return NEW -> In this the task is completed but the updating value can be changed using operations in new and we return the value so now the returned value is 
+for AFTER:
+	return NULL/ return true -> This doesn't imply any change as the insert is already done the transaction can be stopped only by raising an exception
+
+======================================================================================= Other ======================================================================================= 
+RAISE NOTICE 'Current number: %', i; => Used to print messages
+RAISE EXCEPTION 'Error message'; => Used to raise exceptions, which can rollback the transaction
+
