@@ -1,0 +1,208 @@
+﻿PostId,UserId,Comment
+Community10,28,Good naming convention and well structured code will help you decrease the comments need. Don`t forget that each line of comments you add it's a new line to maintain!!
+Community11,9,"+1 for truth, -1 for practicality. :)"
+Community12,11,"@Gabriel: that was already in my answer, look at the end."
+Thomas Owens1,28,"Sometimes it's the technique I use, but also when I'm too deep into my work and I want to change my mind to get a ""fresh"" look to my work."
+Wizard791,28,"@Lorenzo: sorry, I've read it and did not catch this one..."
+DavRob601,54,"I hate when people use that second example in your question. `} //end while` just means the beginning of the while loop is so far away, you can't even see it, and there are no hints that the code you're looking at is in a loop. Heavy refactoring should be seriously preferred to comments about how the code is structured."
+Brandon1,11,"@Carson: while keeping blocks short is a well known rule, it doesn't mean that we always can apply it."
+HoLyVieR1,33,"What about copying that 3-space indented code into your tab-indented file, which you have set your tabs to 3 spaces? When you send your code to your compatriots they wonder why that function has such bad indentation!"
+grokus1,17,How do you manage scope creep?  With a truncheon and a surly disposition.
+Dónal1,17,+1; making sure they understand that this request has consequences (consequences they get to share!) is fundamentally the way to go.
+nivlam1,67,"Good point. I've seen the same with video editors. Many of them can zoom around Premiere, Final Cut, etc, but if it crashes, freezes, or hangs, they are stuck."
+ChrisF1,4,"I like the first part of the question, but I don't think we should have any locale or time specific components. Rates change depending on specific location (even in the US, different locations will have different rates) and time (rates change over time and become no longer valid)."
+Josip Medved1,67,"I gotcha, but check out this one: http://programmers.stackexchange.com/questions/19/programmers-salary-in-uk"
+Hannibal1,67,"Can you give me any ballpark on, say, a wordpress theme, for example?"
+Sergio Acosta1,4,"People who find this site might not be from Stack Overflow. In addition, people who are of interest might not be on Stack Overflow to have a profile there."
+Walter1,67,Thomas Owens - Better?
+Andreas Bonini1,24,@Thomas: Which is why I linked to stackoverflow itself.  You don't need an account on stackoverflow to view peoples profiles and view tags.  Viewing tags is nothing new if you are using this site as this site has tags too.
+Task1,4,"I think you should narrow your question to specific programming books. If you include software development, you open the door books including Software Project Survival Guide, A Discipline for Software Engineering, Waltzing with Bears, The Cathedral & The Bazaar, Software Architectures in Practice, Distributed Systems Concepts and Design, Software Requirements, Rapid Development...these are great and well-cited books that have everything to do with software development/engineering, but little to do with the actual programming of software."
+Mike Clark1,4,"I think this is much better, and much more useful to the general community of programmers."
+makerofthings71,66,"I like the last one, working on a different part. It helps me not just for focus but also for some procrastination when the code is big and complicated"
+Fosco1,66,This is probably one of the easiest (if your on Linux) things that you can do to instantly keep yourself productive. That is until you figure out how easy it is to do Ctrl+Alt+Left (or whatever combination you use)
+Na7coldwater1,4,I'm just clarifying for other people who might read this question. Nothing against this answer - I gave you +1.
+Jason Webb1,4,I don't agree with this. A performance requirement is a valid non-functional requirement for a system.
+mbillard1,74,"ah, is it called hopping? Now i know what i really do at work. hop hop hop .."
+Macha1,11,@systempuntoout: I call it that way because it resembles to me the frequency hopping method!
+badp1,53,Technically if there is a clearly defined performance related requirement then it could be said that you have identified a performance problem and have to account for it in your solution. What I'm talking about is getting clever in advance so that you can avoid non-specific 'potential' problems.
+Steve K1,11,"I just tried to adopt pair programming as a solo developer, and it improved the quality of my work!"
+John1,74,"Here in italy, instead of foo and bar, we have Pippo (Goofy).. Awful! Ex: var pippo = 'ciao'."
+Brian Kim1,11,You are inefficient at keyboard code browsing. You should use CTRL+LEFT and CTRL+RIGHT to skip through whitespace and tokens. So indentation wouldn't matter.
+Josh Hinman1,101,"In agreement, past its peak."
+User1,66,Source? (15 chars)
+Joel Barsotti1,66,Like? (15 chars)
+NickAldwin1,86,Not a speciality!
+MatthewD1,89,"Hmm, I'm not sure how precise the OP is being with the word ""speciality"". Could simply mean ""skill"" or similar..."
+Donny Kurnia1,61,"The Android effect could be short-lived if sl4a gets completed. The eventual goal of sl4a is to allow people to write apps for Android in any programming language. Also, cross-platform toolkits like Appcellerator make it at least partially unnecessary to learn Java for Android development."
+DisgruntledGoat1,13,Brain stack overflow.
+richeym1,86,"It will take a long time for sl4a to take off for general development due to performance concerns. I'm still not sold on cross-platform toolkits for high quality applications. For something quick/limited resources, sure"
+Tom1,66,"And powers Android, a cell phone gaining momentum and popularity everywhere"
+Giel1,66,"While I think this is a great idea, doing it as a beginner project can be intimidating. Especially when you don't have code reviews or other people that can add input. My own projects have gone through many rewrites and thousands of lines of code because nobody told me X was better, a problem I still have. Joining an established project will accelerate learning much better"
+Vicente Nario1,38,"That's a bit rich, @Finnw - what are you doing on here then? ;-)"
+f4lco1,74,@TheLQ Banks or Insurance companies started 20\30 years ago have their software foundations in COBOL.
+mwgriffith1,91,Great question!
+antony.trupe1,11,Can you split this in two different answers so that they can be voted independently?
+diadem1,22,"True. Ohh, so true"
+p.campbell1,9,"hardly meaningless, I think. Please do."
+busyspin1,18,It's interesting that **immutability** isn't mentioned anywhere in the book.
+ChaosPandion1,18,**Programming** quote?
+Nick Craver1,92,"I don't think there's any way to translate the humor to English, but nice quote."
+Matt1,113,Do as I say not as I do :-)
+rightDrop1,66,"Applications like NetBeans or Eclipse are large by themselves. I've seen similarly huge startup times with other large programs, although it was just a *tiny* bit faster. But a tiny bit does not yield a language slow"
+TheVillageIdiot1,66,"Startup costs are a problem, but you can tweak it with some command line switches"
+btlog1,66,I'm confused...
+theycallmemorty1,24,"@TheLQ: It depends on your experience level I guess, doing something from scratch yourself will teach you a lot of lessons and things you wouldn't learn by joining a team which already has many things done.  There's goods and bads about your own or someone else's project in my opinion."
+user8531,101,How many users actually know about command line switches?
+EddieC1,101,@finnw - You must be a parent :)
+Tall Jeff1,61,"what performance concerns? The Python version is native CPython with all the APIs being called via a Dalvik bridge (IIRC). So it should be nearly as performant as ""native"" Dalvik code, in the absence of a JIT. Android 2.2 does have a JIT, but at that point, there's no reason not to use Jython anymore, since it would be faster than CPython and not hugely slower than Java."
+Dawie Strauss1,86,Is this actually subjective enough?
+Jay Bazuzi1,4,"Ah. Yeah, your absolutely right in that case. You don't worry about the possibilities because there are so many, but focus on what you know."
+Jim A1,4,Who said anyone was browsing Twitter when coding?
+Mike King1,4,"That's true, but I would suspect that these people would post some things of interest - either URLs, a blog post (theirs or someone else's) of interest, etc."
+LBushkin1,38,"@Casebah - good point. I wonder if I asked this on Stackoverflow itself whether it would be answered or closed as ""not programming related""? I'll push the discussion up to ""meta"""
+abonet1,17,"@Carson:  One of the projects I work on has insufficient code review, which lead to a collection of JSPs with a cyclomatic complexity of ""OMFG JUST KILL YOURSELF.""  Refactoring the bloody things represents days of work that need to be spent elsewhere.  Those `} // end while` comments can be a lifesaver."
+squelart1,94,"In other words, is there a ""right way"" to approach solving a code golf challenge?  In other other words, what steps can you take to make sure you have the shortest possible code?"
+Mark Lutton1,61,+1 Good answer! I'll post up one of my own later as well.
+WalterJ891,92,"I don't know... When I was a hunt and peck typist I was pretty damn fast, although I wasn't purely a hunt and pecker (I had various ad hoc multi finger combinations for specific words)."
+Chris R. Timmons1,92,"I wouldn't say that touch typing is necessarily the way to achieve that though. I felt absolutely no difference in mental effort between my hunt and peck days and my touch typing days. I think that anyone who spends a lot of time in front of a keyboard will be able to type without thinking, regardless of method."
+Albert1,63,"Actually... I never learned to touch-type punctuation until I started writing code. But constantly having to correct typos in code encouraged me to pick it up. If anything, accuracy is more important for code than it is for words..."
+Sebastian Ullrich1,63,"@EpsilonVector: for the purpose of this discussion, it's probably not worth being too strict on the definition of ""touch typing"": if you can accomplish the same result (remembering the position of keys in order to type without consciously hunting for them, and managing to hit them fast enough to avoid breaking flow) without relying on the ""official"" finger positions, then you've effectively developed your own, personal touch-typing system. You may think that's just common sense, but... I've seen people with years of experience still struggling, slowly, to find the right keys while typing."
+max1,92,"@Shog9 Now that I think about it, I do touch type SOME of the punctuations (namely ,.; and sometimes '), but generally I have an aversion to the rest of the keys because of all the strain it causes the pinky. What fingers do you use for the punctuations?"
+CasperT1,63,"all of them *except* my left pinky! (I think I actually did use that finger as well, once upon a time... But that was when I used a mechanical typewriter, and hitting both the left shift and left punctuation with the same hand was impractical)"
+Chris Sutton1,89,Even the simplest Java GUI takes at least 1.5 seconds to start. That's not a tiny bit.
+Dolbz1,89,"TheLQ, if you can provide a command line switch to remove the 1.5s startup delay for Swing/AWT, please go ahead and answer this: http://stackoverflow.com/questions/508723/fastest-way-to-create-a-java-message-dialog-swing-awt-other"
+Arnold Zokas1,87,Splitted as asked
+Adam Smith1,11,"Take a look of ""D Programming Language"": http://www.digitalmars.com/d/"
+The Lazy DBA1,4,Wow. I just looked through the index - there isn't any mention of immutability.
+nxt1,6,"Some of the examples in that article are pretty sketchy, especially where it starts getting into mathematical extrapolation and alternate base numbering."
+Evan Plaice1,147,"Tabs are not originally meant for indentation, they are meant for *tabulation*, and do a dreadful job at it..."
+Daniel Bauke1,147,"Where does this misconception come from that â€œtabs exist specifically for indentationâ€? **Tabs are called tabs (tabulators) because they were invented for tabulation, not indentation**, and they do a dreadful job at both."
+A G1,147,Since when are **tabs (tabulators)** used for indentation â€œby definitionâ€? By their very definition they were invented for **tabulation** (although they do a dreadful job at that too).
+Ahmet Kakıcı1,6,"@Timwi: [Wikipedia](http://en.wikipedia.org/wiki/Tab_key) seems to say that they are meant for moving the cursor to the next of a set of fixed columns.  Doesn't sound like tabulation was the primary function.  Also, I was referring to the post-typewriter era."
+Nicolai Reuschling1,61,"As far as I can remember, D doesn't have optional dynamic typing or  a built-in unlimited range integer type. The integer type isn't so much of a problem, but the lack of optional dynamic typing makes it quite unattractive."
+swilliams1,147,"I donâ€™t see how that contradicts what I said. I did say they do a dreadful job at tabulation, but that was definitely the intended use. Why else would they be called this?"
+Industrial1,86,"C# is a powerful language, but the syntax is often messy. I think this is because so many of these features weren't in the original design."
+Derek Mahar1,47,Look at the code produced on sites that have good design. You should be able see their style sheets and get some idea of how they were put together from the HTML.
+Jesse1,67,Excellent point. UX is very important.
+Mark Snidovich1,61,"The first problem is solved very neatly by `finally` blocks in modern languages, and the second is solved by labelled `break` s. If you're stuck with C however, `goto` is pretty much the only way of solving these problems elegantly."
+Lang Sharpe1,38,"You are right, we could solve the circumstances I mentioned without pair programming, but we use the pair programming techniques of one person driving the other observing and switching them off at regular intervals. This is a little more formal than just helping /training. A lot of XP shops do much more pair programming than this - I'm wondering what the ""right"" amount of pairing has been for people."
+Javier1,6,"DMMT is, as I understand it, more of a usability book than a web design book."
+Devdatta Tengshe1,90,"Read the type backwards. `int[]*` is a pointer to an array of integers, and `int*[]` is an array of pointers to integers. Works well with `const`s too: `int* const` is a constant pointer to integers, whereas `const int*` and `int const*` are pointers to constant integers (or to integer constants)."
+user14461,61,"I'd argue that when languages have _both_ these features, `goto` is typically absent from those languages."
+MAK1,91,"Yes, but not too much of it."
+Julio1,86,Very good points. I like how Java allows breaking out of multiple levels of loops
+ACP1,86,"Maybe, but you haven't provided any reasoning"
+George Stocker1,101,+1 for having to use VB6 as your most frequent language.
+Gareth Williams1,86,"The halting problem says that we cannot determine if any arbitrary program halts. These programs can do weird things, like test every integer to see if it is a Mersenne prime. We don't do this in normal programs!"
+Craig McQueen1,86,I think that static typing with type inference and possible duck typing is the best possible way of doing things. It is also very complicated
+halfdan1,66,http://xkcd.com/292/
+Eddie Parker1,66,I'm afraid to answer since I'm biased towards high level languages since they are the only languages I've used
+Brian Carlton1,61,"Really? Last I saw, Google had thrown quite a lot of weight and a substantial development effort behind Python, including hiring Python's creator and allowing him to spend 50% of his time working on the language. Google also contribute a good amount of code to Python, especially now that unladen-swallow has been merged into the Python 3 source tree. That makes Python a ""big business name"" to me."
+Rob Gilliam1,61,"@Casebash: I don't think you can reconcile static and duck typing easily. IMHO, it's easier to reconcile static and dynamic typing with type inference."
+Splo1,61,Anyone care to explain the downvote? This was a perfectly valid answer to the question...
+joslinm1,86,@Chinmay: C# does it
+user18311,44,"It's easier to remember the order `$needle`, `$haystack` as it reminds the way of saying _find a needle in a haystack_."
+Ryan Tenney1,13,I thought everyone knew this. :(
+Joel J. Adamson1,66,Compared to? (15 chars)
+iyerrag1,6,"I'm pretty sure he was referring to the use of an 80-character limit in source code, which is almost universally displayed in monospaced fonts."
+Ronnie Howell1,91,"Hmm... in that case... still no, but for other reasons :)"
+user1580171,113,What language do you have in mind?  If C# then I would disagree that it's annoying because it's always explicit (unlike in C++.)  Also I don't know of any mainstream language where your are forced to declare arguments as in/out.
+Jeff Foster1,113,"It's consistent with the rest of the language, so maybe your gripe is about the syntax of C declarators in general?  Do you prefer the syntax used in [Go](http://golang.org/doc/go_lang_faq.html#declarations_backwards)?"
+neves1,113,"vi (or rather vim) is one of the better editors for working with tabs,  As well as being able to set the tab width and automatically expand to spaces (like most editors can) you also have the `softtabstop` option and the `retab` and `retab!` commands."
+ropable1,113,"That breaks as soon as you start indenting for anything other than statement nesting.  For example if you want to align function arguments on the same column, one per line.  It's possible by mixing tabs and spaces but very tedious."
+Marco Mariani1,113,[Read this first](http://www.jwz.org/doc/tabs-vs-spaces.html)
+Jeremy Wadhams1,61,"I just had a look at C#'s duck typing (I don't use the language), and while it seems to fullfil the definition of duck typing, the verbosity required seems to defeat the purpose. That's not to say that it isn't occasionally useful though."
+Legooolas1,66,I have so much trouble just writing tests. Its gotten to the point where I just verify everything manually.
+Christopher Cashell1,38,A very thorough answer!
+Achilles1,42,"Writing real code will help you get in the doors of elite software companies (Google, Amazon, Microsoft, ... ) and feel free to pick the rest."
+Avalanchis1,92,"Consistent in what way? Usually it goes: type varname; And when we create a new composite type, like a struct, first comes the declaration, maybe with a typedef, and then we create a variable of that type. When we declare a function pointer, it's int (*foo)(int arg1, int arg2), which is then used as the type of an argument passed to a function: void newFoo(int (*foo)(int arg1, int art2)).... and as a variable: foo=a_compatible_func;
+I think that a function declaration first, and then a var declaration next would be more consistent, like so: 
+typedef int (*foo)(int, int) MyFoo;
+MyFoo myfoo;"
+aaronasterling1,90,"@finnw I've never seen a language where you *had* to say `in` for `in` arguments either, I'm just talking about them. Also, in my opinion, _nothing_ can excuse an in/out argument, and making them explicit does not relieve the pain. There should be no reason to have to initialize a local variable with a value helpful to the function, and have this same variable then suddenly contain whatever the function decided to put there. These two should be distinct. Always."
+Mithra Menon1,90,That's why you got `typedef`.
+ggutenberg1,24,Running IDE un-elevaetd I can't remember why right now but I had to run it elevated within about 5 minutes of programming.
+Jason1,112,"Windows is not linux, that's not really a good comparison .."
+ChrisR1,83,"+1, I frequently open multiple source files side-by-side in Vim or other editors. With a sufficiently small font and a reasonably narrow right-margin, I can very quickly get a good overview of the project and even open lots of documentation."
+Ken Egozi1,11,@Kop: running with full privileges is either good or bad regardless of the OS... I can't see how Windows and UNIX/Linux are different in that.
+WernerCD1,92,"Yes, I'm just saying that it shouldn't be defining a variable name at the same time. struct myStruct{XYZ} doesn't define a variable called myStruct, only a type is defined. But int (*foo)(int, int) actually defines a variable along with the type."
+Roy Tang1,24,"slap face works well when driving and tired, I think I'll avoid the pen one though lol"
+MayDaniel1,24,I guess the problem is if you are really tired you will only surf the net :)
+RAGNO1,11,"The problem is that, if you have UAC OFF, you should have a dedicated machine or a virtual machine with it ON for the tests."
+Jinuk Kim1,151,"Well, those two are for semi-extreme circumstances.  Not quite as drastic as the last one."
+Ashit Vora1,6,"I've found that my need for coffee scales pretty quickly to how much I'm using.  3 cups in one day will keep me alert for that day, but within a week I'll need 3 cups to get the same effect that 1 used to give.  My experience is that 1 cup in the morning is about ideal for me."
+Nicholas M T Elliott1,24,@Fishtoaster: I have the same problem and usually quit every 2-3 months for a couple weeks and then ramp up again.
+Ken Sykora1,148,"This is also a big part of McConnells's ""Black Art of Software Estimation"". *Never* off-the-cuff it."
+davewasthere1,40,"Even if the UAC is off, a limited account would still let you test limited privileges."
+Tyler1,151,"The Internet is like alcohol for the 21st century. Homer Simpson:""The cause of, and solution to, all of life's problems."""
+wazoox1,4,"I haven't read Black Art of Software Estimation yet. Its the only Steve McConnell book I haven't read (well, I've never read After the Gold Rush, but I did read the second incarnation of it - Professional Software Development)."
+Per-Frode Pedersen1,74,Have a look at this question: http://stackoverflow.com/questions/301693/why-didnt-unit-testing-work-out-for-your-project
+Filip Navara1,74,I use it daily..sob.
+Mark Canlas1,74,+1 I can't drink coffee (too much caffeine) and coke sometimes helps me.
+Victor1,24,Is it a caffeine thing in general? I assume steeped tea would have the same problem?
+Özgür1,63,"@Brian: tea *usually* has considerably less caffeine than coffee. So unless you're drinking a lot of it (or making it very, very strong) you probably won't notice the same sort of ""buzz"" that you're familiar with from coffee or soda. Personally, I find a cup of Earl Grey before bed actually helps me relax..."
+Jarod Elliott1,6,"Worst as in most difficult, or worst as in least representative of skill?"
+CrazyCoder1,90,How do you calculate that coverage percentage? What does it mean to cover 90% of your code anyways?
+Pankaj Patidar1,6,"Most manhole covers in the US *are* circular.  I say this as a person who, for a variety of legitimate reasons, goes through them on a regular basis.  The drop-through answer is the expected one, but other good options are ""Because manholes are circular"" ""Because circular pipes are structurally stronger"" ""Because the human body has a roughly circular cross-section."""
+Eric Belair1,151,"I just answer with ""I'm *too* awesome"""
+dty1,47,@Fishtoaster - this was in the UK.
+Juri1,47,"@Fishtoaster - most inappropriate or least representative of skill - basically you think ""how could they gain anything useful from *that* ?"""
+jayarjo1,113,"Sorry I was not very clear there.  I meant to say ""I don't know of any language where all arguments are implicitly in
++out"" i.e. you are not forced to use that feature, but there are legitimate use cases (e.g. updating a `struct` where the new value depends on the value of another field of the same `struct`.)"
+Andrei K.1,90,"@finnw Objects passed by reference (like instances of `class` objects in C#) being modified by a function are fine to me. Aside that I dislike non-constant structs, passing a `struct` with the `ref` keyword to update it is okay, too. What I really hate is when input is __overwritten__ with output. The best example I can think of is Berkeley socket's `accept` function: it needs a `socklen_t*` argument that, on input, must contain the size of the `struct sockaddr*` you've passed; and on output, will contain the number of bytes that have been written to it. This should be criminal."
+Philip Rieck1,113,"I don't think that is a bad question for a programming job that involves a substantial amount of math (e.g. audio/image resampling.)  There may be an ""Aha!"" answer but you will have an advantage if you can spot that kind of solution while working on that kind of project (real-life example: choose a horizontal or vertical line to divide a photographic image so that the two parts have JPEG encodings of appproximately the same length.)"
+Igor Popov1,113,"I agree that is bad (IIRC some Win32 I/O functions do the same) but that is misuse of the feature (the function call changes the meaning of the passed-in variable, not just its value) and it does not mean the feature itself is bad."
+Gedean Dias1,90,`do_something() if ($x < 10);` isn't that bad.
+imaginaryboy1,113,"As for the answer, I think what you have to do is work out the center of mass of the remainder of the cake and then cut in *any* plane on which that point lies.  So there are infinitely many solutions."
+scrapdog1,38,"Good point, but this definitely wasn't that kind of programming job."
+Chris Stratton1,113,A lot of rectangular covers are just inspection covers (e.g. for telephone/internet cables and small drainage pipes.)  They aren't designed to be climbed through (if the job requires climbing in then you will probably need to dig a larger hole anyway.)
+Dennis Haarbrink1,38,"I highly recommend the McConnell book. If possible, ask anyone who needs an estimate from you to take his estimating quiz:
+http://www.codinghorror.com/blog/2006/06/how-good-an-estimator-are-you.html
+You can present it as a game, but it often helps to get the message across."
+Ed Schwehm1,13,I remember this question. It was dropped on me in a career preparation class.
+Scott Saad1,47,@finnw - the problem still occurs even if the hole isn't big enough for someone to crawl through. In fact it's worse - how do you retrieve the cover if you can't get down?
+lalli1,38,"Oh, and as for the infinitely many solutions - no there were not infinitely many solutions as far as the interviewer was concerned! This interviewer wanted ""his"" answer and ""his"" alone in this particular interview, so any exploration around things like balancing the cake to find its centre of mass would be met with ""you can't do that"". It seemed that he simply wanted to know if you got ""his"" answer."
+Luke Duddridge1,38,"Yes, the only answer to this other than something derogatory has to be around being to much of a perfectionist, which is as cliched as the question."
+Daniel X Moore1,64,"The correct answer is say something that everyone suffers from for example ""I could be more patient"" or ""my time keeping could improve"". +1 Really can't stand this question."
+kohukene1,86,Studies? Do you have a link?
+NetConstructor.com1,86,"One or two cups of coffee a day should be fine, so long as you have them early in the day"
+David Reis1,86,"I would think it would be useful to have at least one senior developer on almost all projects, even if they aren't working on it full time"
+Eduardo Scoz1,86,"Java has annotations, which have a similar purpose and syntax, but work very differently"
+DarenW1,59,and those who confuse it with ternary
+Shripad Krishna1,59,was that before StackOverflow existed?
+IamIronMAN1,108,Every base is base 10.
+Dima1,92,"I can try digging it up, but the article is in Hebrew. 
+Anyway, the article seemed to be concentrate on the Facebook-Twitter crowd, and it also discussed other impacts of internet use. I'm mentioning this because the idea seems to be to multitask lots of low mental effort jobs, like Facebook, YouTube, Twitter, short articles, catching up on web comics, posting short answers on programmers.stackexchange.com etc. all at the same time. Reading a long article is probably not going to help, unless of course it is really interesting."
+Drakonite1,122,"It isn't, and in many cases is much cleaner than `if(..) ...` to boot, as you can get all the expressions to line up on the right. But there's times I really want to say `if($x < 10) do_something();`, and it's unfortunate that Perl won't let me."
+jwaddell1,86,"Not really. The way to learn these skills is not to teach a course on them, but to give them actual project work"
+Pawka1,34,"Team programming doesn't work for me.  I just fall asleep in front of my colleagues (while talking to them), and it only makes it even more embarrassing."
+marco.cantu1,62,"@Brian: There are still some libraries that require admin rights (such as developing for Azure), but a vast majority of tasks can be done as non-admin."
+Liran Orevi1,4,"I don't understand what you mean when you say the client wants a change after the sprint. That has no effect on the work you just completed - it should be part of the next sprint. If this isn't the case, you're...well, doing it wrong."
+Emiliano1,11,"I really not agree. There's no reason to have a game running native, and there's no real need to being native to going low level if the operating systems gives you all the managed entry point you need. Of course there's some performance drawback (actually negligible if the entire system is managed) but today we have plenty of processing power and a lot of need of highly-dependable software."
+bigtang1,101,You need to run the IDE in elevated mode if you creating Windows Services.
+marc hoffman1,136,"+1 for ""take breaks and walk around""  I find myself doing this 2-5 times a day just even a circle around the office to get the blood flowing again is a great refresher."
+jamesh1,136,"Although I do not do pushups in the office, I will from time to time stretch a bit which helps equally well.  During my undergrad I remember many nights I would stop in the fitness center for a quick wake up."
+Sebastian Negraszus1,136,"""Why should you fight your own body"" 2 reasons come to my mind as of recent, undergrad/graduate exams/projects do not wait for sleep and neither do bosses."
+Dan Cirnat1,136,"Answer: ""Your supervisor"""
+Gambrinus1,34,"@Chris, I'm trying to say that a short nap (20 minutes or so) is not what you can't afford.  Of course, it doesn't work well when it's 30 hours until exam, and you just don't have time to sleep.  But if you face tiredness on a regular basis, I can't think of anything better."
+Darren1,66,"@Lorenzo Games already stress computers enough, so the performance hit is important. However, I'm not sure how much the performance impact would be if all the VM does is wrap native calls"
+CesarGon1,66,"I can partially understand not frequently deploying to production, but not deploying to test. Test should be for, well, testing, and therefor requires lots of deployments."
+Atomix1,11,"@TheLQ: the point is that games already don't have to deal with ""low level stuff"" as there's always some middleware (DirectX, Open GL and so on). Of course they are computationally intensive, but using a middleware is already a performance hit. It would just be a managed (and jitted) middleware."
+soody1,61,"If the OS takes care of the JITting, you end up with managed code that runs more or less as fast as ""native"" code. Remember, if you _must_ have assembly-like control over the program, you can always use program directly in byte-code."
+Mark Harrison1,25,"If phrased as ""What's your biggest weakness?"", the correct answer is ""Kryptonite""."
+avakar1,136,"I agree, if it becomes a regular thing you tear your body (including your brain) down and this results in less then optimal effort."
+aufather1,24,I'm leaning towards using the highly caffeinated drinks only for  when I need to pull all night coding sessions.  Don't overeat should also be on your list btw.
+Ran Biron1,38,+1 for picking the second edition too - so many improvements over the first that its a different book.
+rsenna1,145,"It's unfortunate until you write
+`if ($x<10) do_something();  and_call_me();`  and then wonder why you never get a call.  I wish C and family would require the braces, to prevent that type of error."
+hallidave1,41,"You can generate the beans easily with Eclipse. Just declare your attributes and go under ""Source -> Generate Getters and Setters ..."". Since eclipse is commonly used to program in Java, I don't see how ""Too much code"" and ""So annoying a 3rd party had to come up with a plugin to do this easily"" are a problem."
+Abelardo Cecena1,18,@TheLQ: Instead of `private final int` it could have been `int`.
+Nick Ace1,11,Does a Kindle count as a single book?
+Alex C1,11,"+1 -- I have the Italian translation. After that, I never bought another programming or technical book translated in my language, as the translation was terrible. I had to buy the English edition to actually understand some sentences!"
+drrlvn1,147,This answer seems off-topic because it is not about **syntax**.
+Martin Kenny1,90,@Jonas then `public static final int` could have been `public static int`?
+janmr1,90,"@Lorenzo While I agree that running at maximum privileges is never a good idea, I think running as `root` is much more dangerous than running as `Administrator`. `root` has full power in whatever it tries; `Administrator` is still bound to whatever Windows thinks is right. For instance, you can reformat your hard drive while using it under Linux. Pretty sure Windows will never let you."
+Quandary1,136,We had the fourth edition but this is a great book on algorithms!
+Ahmed Atia1,66,"Once again when code is so verbose that it needs auto generating tools, something is wrong. I'm a NetBeans guy, but it also has the ability to auto generate getters and setters. But Javadoc falls out of syn, it's still verbose, it still clutters javadoc, etc"
+Vimal Raj1,18,@zneak: Or how about `public { int counter; double lat; double lng; }` - a public block.
+Hagai L1,18,"Alien paradigm? It's closer to math than imperative programming is. Here in Sweden I think that most CS students at university is thaut functional programming first. E.g. we started out with Standard ML, before C, Erlang and Java."

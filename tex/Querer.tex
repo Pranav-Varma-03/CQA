@@ -1,0 +1,129 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{csvsimple}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{cleveref}
+\usepackage{xcolor}
+\parindent 0px
+\usepackage[none]{hyphenat}
+\usepackage{listings} %Package for the enviroment in which we write code 
+\usepackage[left=1cm,right=1cm,top=2cm]{geometry}
+\pagenumbering{arabic}
+%Some custom colours
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backgroundcolour}{rgb}{0.95,0.95,0.92}
+
+%Shortcut for strings "Code" and "List of Code"
+\renewcommand{\lstlistingname}{Code}
+\renewcommand{\lstlistlistingname}{List of Code}
+
+%This is the template for code styling, named as "mystyle"
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backgroundcolour},
+	basicstyle=\ttfamily\small,
+	commentstyle=\color{green!60!black},
+	keywordstyle=\color{magenta},
+	stringstyle=\color{blue!50!red},
+	showstringspaces=false, 
+	captionpos=b, 
+	tabsize=2,
+	frame=single,
+	breaklines=true,
+	inputpath=code
+}  
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Querer}
+\author{ Srinith Dasari \\ CS21BTECH11015 \and Sai Vamsi Narsupalli \\ CS21BTECH11038 \and Anudeep Rao Perala\\ CS21BTECH11043\and Pranav Varma Pericherla \\ CS21BTECH11044 }
+\date{}
+	
+\begin{document}
+	\maketitle
+	
+	\tableofcontents
+	\newpage
+	
+	\section{Application Features}
+\subsection{Login}
+\begin{itemize}
+	\item When an user logins for the first time the user need to give an username for account creation. 
+	\item The accounts default password is the username of the user.
+	\item For authentication and cookies implemenattion referecnes are :
+	\begin{itemize}
+		\item \href{https://www.makeuseof.com/create-protected-route-in-react/#:~:text=Protected%20routes%20are%20routes%20that,securing%20certain%20routes%20or%20information}{Authentication reference}
+		\item \href{https://www.youtube.com/watch?v=YPgMnugXBJo&t=794s}{Authentication and Cookie reference video}
+		\item \href{https://github.com/js-cookie/js-cookie}{Cookie download and installation}
+	\end{itemize}
+\end{itemize}
+\subsection{Auto Complete Search}
+\begin{itemize}
+	\item Auto complete is implemented using $LIKE$ operator in SQL.
+	\item The given input is checked with the existing data using the $LIKE$ operation whether the input is a substring or not.
+	\item If it is a substring of some data then all the $LIKE$ tuples are shown in the boxes for selection. We can even set a $LIMIT$ on the number of boxes shown.
+\end{itemize}
+\subsection{Create Posts}
+\begin{itemize}
+\item An user need to give Title, Body, Tags of the post as input which is then passed on to trigger written for post insertion for furthur validation.
+\item Only those tags are taken that are part of a $tags$ table.
+\item A particular post is identified by Post ID.
+\end{itemize}
+\subsection{Answer to Posts}
+\begin{itemize}
+\item This is implemented as comments in the application.
+\item An user need to give Body for the comment, which is the answer to the post.
+\item An answer to a particular post is identified by Comment ID.
+\end{itemize}
+
+\subsection{Edit Posts}
+\begin{itemize}
+	\item User can update the Title, Body, Tags of a post and he can mark the question for to stop taking furthur answers.
+	\item User can update the Body of a comment.
+	\item User can delete a post or comment which is posted the user. 
+\end{itemize}
+
+\subsection{Other}
+\begin{itemize}
+	\item If a post or comment is upvoted or downvoted then the corresponding user's upvotes and downvotes are changed accordingly.
+	\item If a post or comment is deleted the upvotes and downvotes of the user is setted accordingly.
+\end{itemize}
+	\section{Overall Application Architecture}
+	\begin{itemize}
+		\item Our CQA application uses \textbf{MVC} architecture.
+		\item Using this architecture we can clearly separate the business logic, Ul logic and input logic.
+		\item This design pattern separates an application into three main logical components Model, View, and Controller.
+		\begin{itemize}
+			\item \textbf{Controller} : This is the component that enables the interconnection between the views and the model. It process all the business logic and incoming requests.
+			\item \textbf{View} : The View component is used for all the UI logic of the application. It generates a user interface for the user. Views are created by the data which is collected by the model component.
+			\item \textbf{Model} : The Model component corresponds to all the data-related logic that the user works with. Model can add or retrieve data from the database. It responds to the controller’s request because the controller can’t interact with the database by itself.
+		\end{itemize}
+
+	\end{itemize}
+	\section{Tech Stack}
+	\begin{itemize}
+		\item \textbf{\underline{Frontend}} : HTML, CSS, JavaScript, Bootstrap
+		\item \textbf{\underline{Backend}} : JavaScript,  ReactJS
+		\item \textbf{\underline{Backend Frameworks}} : NodeJS, ExpressJS
+		\item \textbf{\underline{Database}} : PostgreSQL
+	\end{itemize}
+	\section{Contributions}
+	\begin{itemize}
+		\item \textbf{\underline{Frontend}} : Sai Vamsi
+		\item \textbf{\underline{Backend}}  : Srinith, Pranav 
+		\item \textbf{\underline{Database}} : Anudeep
+	\end{itemize}
+	
+\end{document}
+
+
+

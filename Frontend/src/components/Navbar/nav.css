@@ -1,0 +1,135 @@
+.nav-itemUB{
+  padding-left: 50px;
+ 
+
+}
+.nav-itemPB{
+  padding-left: 50px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.nav-itemTB{
+  padding-left: 50px;
+  background: none;
+  border: none;
+  outline: none;
+}
+.nav-itemCPB{
+  padding-left: 50px;
+  background: none;
+  border: none;
+  outline: none;
+}
+.nav-itemLG{
+  padding-left: 1000px;
+  padding-right: 0;
+}
+
+.UB{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.PB{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.TB{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.CPB{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.PB::after{
+  content: ' ';
+  height: 2px;
+  width: 0%;
+  background-color: darkblue;
+  display: block;
+  outline: none;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.PB:hover::after{
+  content: ' ';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(97, 96, 96);
+  display: block;
+}
+
+.UB::after{
+  content: ' ';
+  height: 2px;
+  width: 0%;
+  background-color: darkblue;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.UB:hover::after{
+  content: ' ';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(97, 96, 96);
+  display: block;
+  
+}
+.TB::after{
+  content: ' ';
+  height: 2px;
+  width: 0%;
+  background-color: darkblue;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.TB:hover::after{
+  content: ' ';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(97, 96, 96);
+  display: block;
+  
+}
+.CPB::after{
+  content: ' ';
+  height: 2px;
+  width: 0%;
+  background-color: darkblue;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.CPB:hover::after{
+  content: ' ';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(97, 96, 96);
+  display: block;
+  
+}
+.PB:hover{
+  color: rgb(97, 96, 96);
+  font-weight:bold;
+}
+.UB:hover{
+  color: rgb(97, 96, 96);
+  font-weight:bold;
+}
+.TB:hover{
+  color: rgb(97, 96, 96);
+  font-weight:bold;
+}
+.CPB:hover{
+  color: rgb(97, 96, 96);
+  font-weight:bold;
+}
